@@ -1,0 +1,7 @@
+Excercise 1 Context
+a. Sketch a contextsensitive Application
+b. Categorize it according to Schilit (explain why)
+c. Categorize all relevant context regarding category of context, passive/active and
+primary/secondary
+d. Modify a. to be in another class according to Schilit (Tip: You may modify the previous
+answer if this does not work)

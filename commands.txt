@@ -1,0 +1,39 @@
+
+Terminal Commands:
+
+
+# Anaconda commands:
+
+conda env create --name kss -f kss_env.yml	#to create an env with the packages that need to exist
+conda activate kss				#to open virtual-env
+conda isntall <package-name>			#to install more packages, this will be done to the currently open env
+
+
+# Jupyter commands:
+
+jupyter-notebook				#to open jupyter
+^C						#to stop jupyter
+
+
+# Java Script commands (in folder from js file):
+
+node index.js start				#to activate website
+^C						#to shut down
+
+# Docker
+
+sudo systemctl status docker			#check if docker active and running
+sudo docker container list -a			#show all containers
+sudo docker run influxdb			#create container instance of influxdb
+sudo docker <start/stop> <CONTAINER_ID>		#start or stop an existing container
+
+
+# InfluxDB
+
+Installation Steps: https://docs.influxdata.com/influxdb/v1.7/introduction/installation/
+Run from terminal: https://docs.influxdata.com/influxdb/v1.7/introduction/getting-started/
+
+influx						#to open influx on terminal
+	show databases				#run in inlfux to show databases
+	create database <name>			#run in influx to create new database
+	exit					#to exit from influx
